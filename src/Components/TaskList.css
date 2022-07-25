@@ -1,0 +1,25 @@
+.TaskList {
+    width: 100%;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.Task {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    max-height: 50px;
+}
+
+.high {
+    border-bottom: 2px solid red;
+}
+.medium {
+    border-bottom: 2px solid #FFBF00;
+}
+.low {
+    border-bottom: 2px solid green;
+}

@@ -1,0 +1,65 @@
+.LoginPage {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.LoginPage aside {
+    background: url("../Images/login.jpg");
+    background-size: cover;
+}
+
+.LoginPage section {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.LoginPage section h1 {
+    font-size: 2em;
+    margin: 25px 0px 25px 0px;
+}
+
+.LoginPage .slogan {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0px 0px 25px 0px;
+}
+
+.LoginPage .inputGroup {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.LoginPage .inputGroup label {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.LoginPage .inputGroup input {
+    font-size: 1.2em;
+    padding: 10px 20px 20px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #eee;
+    margin-bottom: 10px;
+}
+
+.LoginPage .btnLogin {
+    width: 400px;
+    font-size: 2em;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #093;
+
+}
